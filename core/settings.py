@@ -107,3 +107,8 @@ STATIC_URL = 'static/'
 # Default primary key field type
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# auth
+
+AUTH_USER_MODEL = 'users.User'
